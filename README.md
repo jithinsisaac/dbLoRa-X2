@@ -15,6 +15,10 @@ PCB Front
 PCB Back
 ![PCB Front](/images/7.dbLoRa-X2B.jpg)
 
+# Product Pictures
+
+![product](/images/7.dbLoRa-X2-Product.jpg)
+
 # Credits
 Designed at Don Bosco Institute of Technology, Mumbai
 
