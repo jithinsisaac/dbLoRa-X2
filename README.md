@@ -8,7 +8,8 @@ dbLoRa-X2: ATMega328 + HopeRF RFM95W or Dorji DRF1276
 2. Node-Red Flow
 3. Datasheets
 
-PCB Front
+# PCB Screenshots (Made in KiCad)
+PCB Front 
 ![PCB Front](/images/7.dbLoRa-X2F.jpg)
 
 PCB Back
