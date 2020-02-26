@@ -13,3 +13,7 @@ PCB Front
 
 PCB Back
 ![PCB Front](/images/7.dbLoRa-X2B.jpg)
+
+# Credits
+Designed at Don Bosco Institute of Technology, Mumbai
+By Prof. Ms. Freda Carvalho & Prof. Mr. Jithin Saji Isaac
