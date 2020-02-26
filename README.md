@@ -2,7 +2,6 @@
 All workshop materials required for LoRaWAN course
 
 # Contents
-1. OTAA Arduino Code
+1. OTAA Arduino Code with MCCI Catena LoRaWAN Arduino Library
 2. Node-Red Flow
-3. MCCI Catena LoRaWAN Arduino Library
-4. Datasheets
+3. Datasheets
