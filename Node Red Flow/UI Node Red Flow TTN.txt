@@ -16,6 +16,37 @@
         ]
     },
     {
+        "id": "64fbf65e.3e38b8",
+        "type": "debug",
+        "z": "46f8f70.2f90508",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.temp",
+        "targetType": "msg",
+        "x": 750,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "cac8d823.6c0588",
+        "type": "function",
+        "z": "46f8f70.2f90508",
+        "name": "Decode Temp & Battery",
+        "func": "var temp = (msg.payload[0]<<8) | msg.payload[1];\nvar batteryV = (msg.payload[2]<<8) | msg.payload[3];\n\nmsg.payload.temp=temp/100;\nmsg.payload.batteryV=batteryV/100;\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 80,
+        "wires": [
+            [
+                "64fbf65e.3e38b8"
+            ]
+        ]
+    },
+    {
         "id": "66f2236e.b2425c",
         "type": "ttn app",
         "z": "",
