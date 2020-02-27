@@ -1,0 +1,26 @@
+[
+    {
+        "id": "bfa824ff.66e648",
+        "type": "ttn uplink",
+        "z": "46f8f70.2f90508",
+        "name": "LoRaWAN End Nodes",
+        "app": "66f2236e.b2425c",
+        "dev_id": "abc",
+        "field": "",
+        "x": 180,
+        "y": 80,
+        "wires": [
+            [
+                "cac8d823.6c0588"
+            ]
+        ]
+    },
+    {
+        "id": "66f2236e.b2425c",
+        "type": "ttn app",
+        "z": "",
+        "appId": "xyz",
+        "accessKey": "xxx",
+        "discovery": "discovery.thethingsnetwork.org:1900"
+    }
+]
